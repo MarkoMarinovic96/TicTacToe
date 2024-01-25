@@ -23,7 +23,7 @@ export const GamesPage: React.FC = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [selectedStatus, setSelectedStatus] = useState(options[0]);
   const user = storage.getUserId();
-  const trophy = require('../assets/Trofej.png');
+  const trophy = require('../assets/Trofej.webp');
   const navigate = useNavigate();
 
   useEffect(() => {

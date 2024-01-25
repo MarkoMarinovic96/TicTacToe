@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'game-background': 'url(./assets/Pozadina.png)',
-        'trophy-background':'url(./assets/Logo.png)'
+        'game-background': 'url(./assets/Pozadina.webp)',
+        'trophy-background':'url(./assets/Logo.webp)'
       }
     }
   },

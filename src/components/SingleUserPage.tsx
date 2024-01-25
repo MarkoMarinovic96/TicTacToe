@@ -13,7 +13,7 @@ interface User {
 export const SingleUserPage: React.FC = () => {
   const { id } = useParams<{ id: string }>();
   const [user, setUser] = useState<User | null>(null);
-  const userPlaceholder = require('../assets/stock-vector-user-profile-group.jpg');
+  const userPlaceholder = require('../assets/stock-vector-user-profile-group.webp');
 
   useEffect(() => {
     const fetchSingleUser = async () => {

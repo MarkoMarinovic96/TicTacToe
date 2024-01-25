@@ -1,7 +1,7 @@
 import React from 'react';
 
 export const HomePage: React.FC = () => {
-  const trophyBackground = require('../assets/Logo.png');
+  const trophyBackground = require('../assets/Logo.webp');
 
   return (
     <div className="flex justify-center items-center">

@@ -11,7 +11,7 @@ export const SingleGame: React.FC = () => {
   const [game, setGame] = useState<SingleGameApiResponse | null>();
   const [isLoading, setIsLoading] = useState(false);
   const user = storage.getUserId();
-  const trophy = require('../assets/Trofej.png');
+  const trophy = require('../assets/Trofej.webp');
 
   useEffect(() => {
     const fetchSingleGame = async () => {

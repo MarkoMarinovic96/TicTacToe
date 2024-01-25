@@ -18,7 +18,7 @@ export const UsersPage: React.FC = () => {
   const [offset, setOffset] = useState<number>(0);
   const [limit] = useState<number>(10);
   const [isLoading, setIsLoading] = useState(false);
-  const userPlaceholder = require('../assets/stock-vector-user-profile-group.jpg');
+  const userPlaceholder = require('../assets/stock-vector-user-profile-group.webp');
 
   useEffect(() => {
     const fetchUsers = async () => {
